@@ -1,7 +1,7 @@
 <?php
 
 function asset_url($additional = ""){
-   return '/bower_components/'.$additional;
+   return base_url() . '/bower_components/' . $additional;
 }
 
 ?>

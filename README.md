@@ -13,3 +13,13 @@ The project in this repo contain a URL shortener project in CodeIgniter that can
 ```sh
 $ git clone https://github.com/valdiearsanur/url-shortener-project.git
 ```
+
+#### how to install?
+just change code below in application/config/config.php :
+```php
+$config['base_url'] = 'http://valdie.ci-book.dev/ch2';
+```
+to :
+```php
+$config['base_url'] = '[your root url]';
+```
